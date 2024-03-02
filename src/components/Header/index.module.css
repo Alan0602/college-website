@@ -1,0 +1,43 @@
+.headerWrapper{
+    height:80px;
+    width:100vw;
+    display: flex;
+    color: var(--light-text);
+    font-weight: bold;
+    justify-content: space-around;
+    margin-top:1.8rem ;
+}
+.headerContact{
+    display: flex;
+    flex-direction:row;
+    gap:.8rem;
+}
+.headerContact div{
+    font-size: 1.3rem;
+    color:var(--secondary);
+}
+.headerContact span{
+    display: flex;
+    font-size: 0.8rem;
+    flex-direction: column;
+}
+.headerLocation{
+    display: flex;
+    flex-direction:row;
+    gap:.8rem;
+}
+.headerLocation div{
+    font-size: 1.3rem;
+    color:var(--secondary);
+
+}
+.headerLocation span{
+    display: flex;
+    font-family: var(--text-body) ;
+    font-size: 0.8rem;
+    flex-direction: column;
+}
+.headerLine{
+    height: .3px;
+    background-color:rgba(215, 208, 198, 0.922);
+}

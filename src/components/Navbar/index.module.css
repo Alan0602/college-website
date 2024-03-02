@@ -1,0 +1,28 @@
+.navbarWrapper{
+    display:flex;
+    justify-content: center;
+    padding:1rem 2rem;
+}
+
+.navbarWrapper .navbarBody ul{
+    list-style: none;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-right: 2rem;
+}
+
+.navbarWrapper .navbarBody ul li {
+    display: inline;
+    padding-right: 2rem;
+}
+
+.navbarWrapper .navbarBody ul li a {
+    font-weight: 600;
+    display:inline;
+    font-family: var(--text-body);
+    color:var(--background);
+}
+
+.navbarWrapper .navbarBody ul li a:hover{
+    color: var(--secondary);
+}
