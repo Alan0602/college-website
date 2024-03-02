@@ -18,7 +18,7 @@
 
 .navbarWrapper .navbarBody ul li a {
     font-weight: 600;
-    display:inline;
+    display:inline-block;
     font-family: var(--text-body);
     color:var(--background);
 }
