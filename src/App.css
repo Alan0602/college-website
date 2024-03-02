@@ -1,0 +1,29 @@
+:root {
+	--primary: #ffffff;
+	--secondary: #fdab31;
+	--background: #121212;
+	--light-text:rgb(106, 104, 104);
+	--foreground: rgb(24, 130, 244);
+	--text-heading: "Times New Roman", serif;
+	--text-body: "Open Sans",  sans-serif;
+}
+
+*{
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--border-light);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--accent);
+}
