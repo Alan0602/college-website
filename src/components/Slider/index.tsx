@@ -21,19 +21,23 @@ const Slider = () => {
   return (
     <>
     <div className={styles.sliderWrapper}>
+        {slides.map((slide) => (
     <Swiper
       spaceBetween={50}
-      slidesPerView={3}
+      slidesPerView={1}
+      navigation={true}
+      autoplay={true}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-    >{slides.map((slide) => (
+      
+    >
 
         <SwiperSlide><img src={slide.title} alt={slide.content} /></SwiperSlide>
+     
+    </Swiper>
     ))
 
     }
-     
-    </Swiper>
     </div>
     </>
   )

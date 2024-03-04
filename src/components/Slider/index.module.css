@@ -1,0 +1,7 @@
+/* .sliderWrapper {
+    display:flex;
+} */
+.sliderWrapper img{
+    width:100%;
+    overflow:hidden;
+}
