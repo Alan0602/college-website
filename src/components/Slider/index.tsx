@@ -8,14 +8,14 @@ const Slider = () => {
           title: 'https://sngist.org/contents/wp-content/themes/sngist18/assets/img/slides/slide_1.jpg',
           content: 'Content for Slide 1',
         },
-        {
-          title: 'https://sngist.org/contents/wp-content/themes/sngist18/assets/img/slides/slide_3.jpg',
-          content: 'Content for Slide 2',
-        },
-        {
-          title: 'https://sngist.org/contents/wp-content/themes/sngist18/assets/img/slides/slide_4.jpg',
-          content: 'Content for Slide 3',
-        },
+        // {
+        //   title: 'https://sngist.org/contents/wp-content/themes/sngist18/assets/img/slides/slide_3.jpg',
+        //   content: 'Content for Slide 2',
+        // },
+        // {
+        //   title: 'https://sngist.org/contents/wp-content/themes/sngist18/assets/img/slides/slide_4.jpg',
+        //   content: 'Content for Slide 3',
+        // },
       ];
 
   return (
